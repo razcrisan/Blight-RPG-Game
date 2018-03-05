@@ -5,6 +5,7 @@ using UnityStandardAssets.Characters.ThirdPerson;
 [RequireComponent(typeof (ThirdPersonCharacter))]
 public class PlayerMovement : MonoBehaviour
 {
+	
 	[SerializeField] float walkMoveStopRadius = 0.1f;
 
 	ThirdPersonCharacter m_Character;   // A reference to the ThirdPersonCharacter on the object
